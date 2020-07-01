@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743575617349",
+    "firebase_url": "https://femme-43af8.firebaseio.com",
+    "project_id": "femme-43af8",
+    "storage_bucket": "femme-43af8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743575617349:android:0daf32a614ab623417c82c",
+        "android_client_info": {
+          "package_name": "com.example.femme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743575617349-8mlbbe549cmftej9b2ct2f61ji4i6oi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.femme",
+            "certificate_hash": "be510c37b4bf20dd61e37a9aff2c1a9844db8086"
+          }
+        },
+        {
+          "client_id": "743575617349-ej1ie6kr91e005bq4o1gd1k5508h3fr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJm3Cwj-bcCYSweZo0T26FgTQ8kTIcYj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743575617349-ej1ie6kr91e005bq4o1gd1k5508h3fr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

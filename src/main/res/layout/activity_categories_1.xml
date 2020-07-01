@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Categories_1">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/catering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catering_icon"
+            tools:ignore="ContentDescription"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/clothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clothing_icon"
+            tools:ignore="ContentDescription"/>
+
+
+
+        <ImageView
+            android:id="@+id/sewing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sewing_icon"
+            tools:ignore="ContentDescription"/>
+
+
+
+        <ImageView
+            android:id="@+id/tutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tutor_icon"
+            tools:ignore="ContentDescription"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/accessory"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/accessory_icon"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/food_icon"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/makeup"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/makeup_icon"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/jewelry"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/jewelry_icon"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:text="Catering"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="33dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:text="Clothing"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="128dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:text="Sewing"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:text="Tutor"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="337dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:text="Jewellery"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="323dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:text="Makeup"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:text="Food"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="143dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:text="Accessory"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+
+</RelativeLayout>
